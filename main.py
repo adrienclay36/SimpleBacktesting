@@ -97,6 +97,9 @@ def ema_interface():
 
     st.markdown("**REMEMBER**: Crypto tickers use '-USD' notation (Ex. BTC-USD, DOGE-USD, ETH-USD etc.)")
 
+    st.write("\n")
+    st.markdown("**All backtesting is done using *daily* close prices.**")
+
     ticker = st.text_input("Ticker")
     ticker.capitalize()
 
@@ -162,6 +165,9 @@ def macd_interface():
     st.write("\n")
 
     st.markdown("**REMEMBER**: Crypto tickers use '-USD' notation (Ex. BTC-USD, DOGE-USD, ETH-USD etc.)")
+
+    st.write("\n")
+    st.markdown("**All backtesting is done using *daily* close prices.**")
 
 
     ticker = st.text_input("Ticker")
@@ -326,6 +332,8 @@ def make_pred():
     st.write("\n")
 
     st.markdown("**REMEMBER**: Crypto tickers use '-USD' notation (Ex. BTC-USD, DOGE-USD, ETH-USD etc.)")
+    st.write("\n")
+    st.markdown("**All backtesting is done using *daily* close prices.**")
     ticker = st.text_input("Ticker")
     ticker.capitalize()
 
@@ -409,6 +417,9 @@ def obv():
     st.write("\n")
 
     st.markdown("**REMEMBER**: Crypto tickers use '-USD' notation (Ex. BTC-USD, DOGE-USD, ETH-USD etc.)")
+
+    st.write("\n")
+    st.markdown("**All backtesting is done using *daily* close prices.**")
 
     ticker = st.text_input("Ticker")
     ticker.capitalize()
